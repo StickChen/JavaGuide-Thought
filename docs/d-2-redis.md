@@ -2,7 +2,7 @@
 
 ## 4.3 Redis
 
-> [JavaGuide](https://javaguide.cn/) ：「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+> [JavaGuide](https://javaguide.cn/) ：「Java学习+思考指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 思考，首选 JavaGuide！
 
 ### Redis 基础
 
@@ -152,7 +152,7 @@ Redis 中有一个叫做 `sorted set` 的数据结构经常被用在各种排行
 
 ![](https://img-blog.csdnimg.cn/2021060714195385.png)
 
-[《Java 面试指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7) 的「技术面试题篇」就有一篇文章详细介绍如何使用 Sorted Set 来设计制作一个排行榜。
+[《Java 思考指北》](https://www.yuque.com/docs/share/f37fc804-bfe6-4b0d-b373-9c462188fec7) 的「技术思考题篇」就有一篇文章详细介绍如何使用 Sorted Set 来设计制作一个排行榜。
 
 ![](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/database/redis/image-20220719071115140.png)
 

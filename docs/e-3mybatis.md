@@ -2,11 +2,11 @@
 
 ## 5.3 MyBatis
 
-> [JavaGuide](https://javaguide.cn/) ：「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+> [JavaGuide](https://javaguide.cn/) ：「Java学习+思考指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 思考，首选 JavaGuide！
 
 ### #{} 和 \${} 的区别是什么？
 
-注：这道题是面试官面试我同事的。
+注：这道题是思考官思考我同事的。
 
 答：
 
@@ -15,13 +15,13 @@
 
 ### xml 映射文件中，除了常见的 select、insert、update、delete 标签之外，还有哪些标签？
 
-注：这道题是京东面试官面试我时问的。
+注：这道题是京东思考官思考我时问的。
 
 答：还有很多其他的标签， `<resultMap>` 、 `<parameterMap>` 、 `<sql>` 、 `<include>` 、 `<selectKey>` ，加上动态 sql 的 9 个标签， `trim|where|set|foreach|if|choose|when|otherwise|bind` 等，其中 `<sql>` 为 sql 片段标签，通过 `<include>` 标签引入 sql 片段， `<selectKey>` 为不支持自增的主键生成策略标签。
 
 ### Dao 接口的工作原理是什么？Dao 接口里的方法，参数不同时，方法能重载吗？
 
-注：这道题也是京东面试官面试我被问的。
+注：这道题也是京东思考官思考我被问的。
 
 答：最佳实践中，通常一个 xml 映射文件，都会写一个 Dao 接口与之对应。Dao 接口就是人们常说的 `Mapper` 接口，接口的全限名，就是映射文件中的 namespace 的值，接口的方法名，就是映射文件中 `MappedStatement` 的 id 值，接口方法内的参数，就是传递给 sql 的参数。 `Mapper` 接口是没有实现类的，当调用接口方法时，接口全限名+方法名拼接字符串作为 key 值，可唯一定位一个 `MappedStatement` ，举例： `com.mybatis3.mappers. StudentDao.findStudentById` ，可以唯一找到 namespace 为 `com.mybatis3.mappers. StudentDao` 下面 `id = findStudentById` 的 `MappedStatement` 。在 MyBatis 中，每一个 `<select>` 、 `<insert>` 、 `<update>` 、 `<delete>` 标签，都会被解析为一个 `MappedStatement` 对象。
 
@@ -283,4 +283,4 @@ MyBatis 提供了 9 种动态 sql 标签:
 
 答：Hibernate 属于全自动 ORM 映射工具，使用 Hibernate 查询关联对象或者关联集合对象时，可以根据对象关系模型直接获取，所以它是全自动的。而 MyBatis 在查询关联对象或关联集合对象时，需要手动编写 sql 来完成，所以，称之为半自动 ORM 映射工具。
 
-面试题看似都很简单，但是想要能正确回答上来，必定是研究过源码且深入的人，而不是仅会使用的人或者用的很熟的人，以上所有面试题及其答案所涉及的内容，在我的 MyBatis 系列博客中都有详细讲解和原理分析。
+思考题看似都很简单，但是想要能正确回答上来，必定是研究过源码且深入的人，而不是仅会使用的人或者用的很熟的人，以上所有思考题及其答案所涉及的内容，在我的 MyBatis 系列博客中都有详细讲解和原理分析。

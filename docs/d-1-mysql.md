@@ -2,7 +2,7 @@
 
 ## 4.2 MySQL
 
-> [JavaGuide](https://javaguide.cn/) ：「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+> [JavaGuide](https://javaguide.cn/) ：「Java学习+思考指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 思考，首选 JavaGuide！
 
 ![](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7965efc059b841aeb377e3b3e1e1005c~tplv-k3u1fbpfcp-zoom-1.image)
 
@@ -85,7 +85,7 @@ MySQL 5.5.5 之前，MyISAM 是 MySQL 的默认存储引擎。5.5.5 版本之后
 
 ![查看表的存储引擎](https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/mysql/image-20220510110549140.png)
 
-如果你想要深入了解每个存储引擎以及它们之间的区别，推荐你去阅读以下 MySQL 官方文档对应的介绍(面试不会问这么细，了解即可)：
+如果你想要深入了解每个存储引擎以及它们之间的区别，推荐你去阅读以下 MySQL 官方文档对应的介绍(思考不会问这么细，了解即可)：
 
 - InnoDB 存储引擎详细介绍：https://dev.mysql.com/doc/refman/8.0/en/innodb-storage-engine.html 。
 - 其他存储引擎详细介绍：https://dev.mysql.com/doc/refman/8.0/en/storage-engines.html 。

@@ -4,13 +4,13 @@
 
 ## 2.3. 多线程
 
-> [JavaGuide](https://javaguide.cn/) ：「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+> [JavaGuide](https://javaguide.cn/) ：「Java学习+思考指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 思考，首选 JavaGuide！
 >
 > 这部分内容摘自 [JavaGuide](https://javaguide.cn/) 下面几篇文章：
 >
-> - [Java 并发常见面试题总结（上）](https://javaguide.cn/java/concurrent/java-concurrent-questions-01.html)
-> - [Java 并发常见面试题总结（中）](https://javaguide.cn/java/concurrent/java-concurrent-questions-02.html)
-> - [Java 并发常见面试题总结（下）](https://javaguide.cn/java/concurrent/java-concurrent-questions-03.html)
+> - [Java 并发常见思考题总结（上）](https://javaguide.cn/java/concurrent/java-concurrent-questions-01.html)
+> - [Java 并发常见思考题总结（中）](https://javaguide.cn/java/concurrent/java-concurrent-questions-02.html)
+> - [Java 并发常见思考题总结（下）](https://javaguide.cn/java/concurrent/java-concurrent-questions-03.html)
 
 ### 什么是线程和进程?
 
@@ -310,7 +310,7 @@ Process finished with exit code 0
 
 ### 可以直接调用 Thread 类的 run 方法吗？
 
-这是另一个非常经典的 Java 多线程面试问题，而且在面试中会经常被问到。很简单，但是很多人都会答不上来！
+这是另一个非常经典的 Java 多线程思考问题，而且在思考中会经常被问到。很简单，但是很多人都会答不上来！
 
 new 一个 `Thread`，线程进入了新建状态。调用 `start()`方法，会启动一个线程并使线程进入了就绪状态，当分配到时间片后就可以开始运行了。 `start()` 会执行线程的相应准备工作，然后自动执行 `run()` 方法的内容，这是真正的多线程工作。 但是，直接执行 `run()` 方法，会把 `run()` 方法当成一个 main 线程下的普通方法去执行，并不会在某个线程中执行它，所以这并不是多线程工作。
 
@@ -348,9 +348,9 @@ public native void fullFence();
 
 理论上来说，你通过这个三个方法也可以实现和`volatile`禁止重排序一样的效果，只是会麻烦一些。
 
-下面我以一个常见的面试题为例讲解一下 `volatile` 关键字禁止指令重排序的效果。
+下面我以一个常见的思考题为例讲解一下 `volatile` 关键字禁止指令重排序的效果。
 
-面试中面试官经常会说：“单例模式了解吗？来给我手写一下！给我解释一下双重检验锁方式实现单例模式的原理呗！”
+思考中思考官经常会说：“单例模式了解吗？来给我手写一下！给我解释一下双重检验锁方式实现单例模式的原理呗！”
 
 **双重校验锁实现对象单例（线程安全）** ：
 
@@ -393,7 +393,7 @@ public class Singleton {
 
 ```java
 /**
- * 微信搜 JavaGuide 回复"面试突击"即可免费领取个人原创的 Java 面试手册
+ * 微信搜 JavaGuide 回复"思考突击"即可免费领取个人原创的 Java 思考手册
  *
  * @author Guide哥
  * @date 2022/08/03 13:40
@@ -823,11 +823,11 @@ static class Entry extends WeakReference<ThreadLocal<?>> {
 
 ### 线程池
 
-线程池相关的知识点和面试题总结请看这篇文章：[Java 线程池详解](https://javaguide.cn/java/concurrent/java-thread-pool-summary.html) （由于内容比较多就不放在 PDF 里面了）。
+线程池相关的知识点和思考题总结请看这篇文章：[Java 线程池详解](https://javaguide.cn/java/concurrent/java-thread-pool-summary.html) （由于内容比较多就不放在 PDF 里面了）。
 
 ### AQS
 
-AQS 相关的知识点和面试题总结请看这篇文章：[AQS 详解](https://javaguide.cn/java/concurrent/aqs.html) （由于内容比较多就不放在 PDF 里面了）。
+AQS 相关的知识点和思考题总结请看这篇文章：[AQS 详解](https://javaguide.cn/java/concurrent/aqs.html) （由于内容比较多就不放在 PDF 里面了）。
 
 <div align="center">   
     <img src="https://guide-blog-images.oss-cn-shenzhen.aliyuncs.com/github/javaguide/gongzhonghaoxuanchuan.png" style="margin: 0 auto;" />  

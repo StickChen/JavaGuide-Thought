@@ -4,12 +4,12 @@
 
 ## 2.2. Java集合
 
-> [JavaGuide](https://javaguide.cn/) ：「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+> [JavaGuide](https://javaguide.cn/) ：「Java学习+思考指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 思考，首选 JavaGuide！
 >
 > 这部分内容摘自 [JavaGuide](https://javaguide.cn/) 下面几篇文章：
 >
-> - [Java集合常见面试题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
-> - [Java集合常见面试题总结(下)](https://javaguide.cn/java/collection/java-collection-questions-02.html)
+> - [Java集合常见思考题总结(上)](https://javaguide.cn/java/collection/java-collection-questions-01.html)
+> - [Java集合常见思考题总结(下)](https://javaguide.cn/java/collection/java-collection-questions-02.html)
 
 Java 集合， 也叫作容器，主要是由两大接口派生而来：一个是 `Collection`接口，主要用于存放单一元素；另一个是 `Map` 接口，主要用于存放键值对。对于`Collection` 接口，下面又有三个主要的子接口：`List`、`Set` 和 `Queue`。
 
@@ -322,7 +322,7 @@ Output：
 - `PriorityQueue` 是非线程安全的，且不支持存储 `NULL` 和 `non-comparable` 的对象。
 - `PriorityQueue` 默认是小顶堆，但可以接收一个 `Comparator` 作为构造参数，从而来自定义元素优先级的先后。
 
-`PriorityQueue` 在面试中可能更多的会出现在手撕算法的时候，典型例题包括堆排序、求第K大的数、带权图的遍历等，所以需要会熟练使用才行。
+`PriorityQueue` 在思考中可能更多的会出现在手撕算法的时候，典型例题包括堆排序、求第K大的数、带权图的遍历等，所以需要会熟练使用才行。
 
 ### HashMap 和 Hashtable 的区别
 

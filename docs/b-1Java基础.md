@@ -4,7 +4,7 @@
 
 # 2. Java
 
-> [JavaGuide](https://javaguide.cn/) ：「Java学习+面试指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 面试，首选 JavaGuide！
+> [JavaGuide](https://javaguide.cn/) ：「Java学习+思考指南」一份涵盖大部分 Java 程序员所需要掌握的核心知识。准备 Java 思考，首选 JavaGuide！
 
 <div align="center">
     <p>
@@ -22,9 +22,9 @@
 
 > 这部分内容摘自 [JavaGuide](https://javaguide.cn/) 下面几篇文章：
 >
-> - [Java基础常见面试题总结(上)](https://javaguide.cn/java/basis/java-basic-questions-01.html)
-> - [Java基础常见面试题总结(中)](https://javaguide.cn/java/basis/java-basic-questions-02.html)
-> - [Java基础常见面试题总结(下)](https://javaguide.cn/java/basis/java-basic-questions-03.html)
+> - [Java基础常见思考题总结(上)](https://javaguide.cn/java/basis/java-basic-questions-01.html)
+> - [Java基础常见思考题总结(中)](https://javaguide.cn/java/basis/java-basic-questions-02.html)
+> - [Java基础常见思考题总结(下)](https://javaguide.cn/java/basis/java-basic-questions-03.html)
 
 ### JVM vs JDK vs JRE
 
@@ -328,7 +328,7 @@ public static void method2(String arg1, String... args) {
 
 ```java
 /**
- * 微信搜 JavaGuide 回复"面试突击"即可免费领取个人原创的 Java 面试手册
+ * 微信搜 JavaGuide 回复"思考突击"即可免费领取个人原创的 Java 思考手册
  *
  * @author Guide哥
  * @date 2021/12/13 16:52
